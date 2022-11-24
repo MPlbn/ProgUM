@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".DetailsFragment">
+
+    <TextView
+        android:id="@+id/tv_studentId"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMER INDEKSU"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_crimeTitle"
+        android:text="TYTUL"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_crimeDetails"
+        android:textAlignment="center"
+        android:text="DETALE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:id="@+id/isSolved"
+            android:text="STATUS ROZWIĄZANIA:"
+            android:layout_weight="2"
+            android:textAlignment="textEnd"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/solveIcon"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_back"
+
+        android:text="BACK"/>
+
+</LinearLayout>
