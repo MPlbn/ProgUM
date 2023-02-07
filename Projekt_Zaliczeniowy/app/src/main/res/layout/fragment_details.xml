@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".DetailsFragment">
+
+    <TextView
+        android:id="@+id/tv_taskId"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA NOTATKI"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Title"
+        android:text="TYTUL"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Details"
+        android:textAlignment="center"
+        android:text="DETALE"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:id="@+id/btn_edit"
+        android:text="EDIT"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_back"
+        android:text="BACK"/>
+
+</LinearLayout>

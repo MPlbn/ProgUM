@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/currentDate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="CURRENT DATE"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="600dp"
+        tools:listitem="@layout/list_element" />
+
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="300dp"
+        android:text="ADD NOTE"
+        android:textSize="12dp"/>
+    <Button
+        android:id="@+id/btn_calendar"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="170dp"
+        android:text="PICK DATE"
+        android:textSize="11dp"/>
+    <Button
+        android:id="@+id/btn_pmap"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="30dp"
+        android:text="PIXEL MAP"
+        android:textSize="11dp"/>
+
+    <Button
+        android:id="@+id/btn_rateDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate day"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="167dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+</FrameLayout>
