@@ -44,7 +44,7 @@
         android:layout_height="40dp"
         android:layout_gravity="bottom"
         android:layout_marginStart="30dp"
-        android:text="PIXEL MAP"
+        android:text="MOOD"
         android:textSize="11dp"/>
 
     <Button
